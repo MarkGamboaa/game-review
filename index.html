@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Review: Sekiro: Shadows Die Twice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Sekiro: Shadows Die Twice</h1>
+        <p class="lead">Revisiting a Feudal Japan Action Epic</p>
+    </header>
+
+    <main class="container mt-4">
+        <section id="game-info" class="card mb-4">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="Sekiro.jpeg" class="img-fluid rounded-start" alt="Sekiro: Shadows Die Twice Cover Art">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title">About the Game</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Developer:</strong> FromSoftware</li>
+                            <li class="list-group-item"><strong>Publisher:</strong> Activision</li>
+                            <li class="list-group-item"><strong>Original Release Date:</strong> March 22, 2019</li>
+                            <li class="list-group-item"><strong>Platforms:</strong> PlayStation 4, Xbox One, Microsoft Windows, Stadia</li>
+                            <li class="list-group-item"><strong>Genre:</strong> Action-Adventure, Souls-like</li>
+                        </ul>
+                        <p class="card-text mt-3">Sekiro: Shadows Die Twice is a 2019 action-adventure game set in a reimagined late 16th century Sengoku period Japan. Players control Wolf, a shinobi who must rescue his kidnapped lord and seek revenge against those who dishonored him. The game features intense sword combat, stealth mechanics, and a grappling hook for vertical exploration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="review-content" class="card mb-4 p-4">
+            <h2>My Review: The Enduring Legacy</h2>
+            <div id="rating" class="mb-3">
+                <h4>Overall Rating: <span class="badge bg-info text-dark">9.8/10</span></h4>
+            </div>
+            <p>Sekiro: Shadows Die Twice represents FromSoftware's bold departure from their Souls series formula, delivering a focused, skill-based combat experience that rewards mastery and precision. The game's innovative Posture system, which emphasizes deflecting attacks rather than dodging, creates intense duels that feel like authentic samurai battles.</p>
+            <p>The game's vertical exploration through the grappling hook mechanic adds a new dimension to FromSoftware's level design, allowing players to traverse rooftops and cliffs with fluid movement. Combined with stealth mechanics and the ability to perform deathblows on unsuspecting enemies, Sekiro offers multiple approaches to combat encounters.</p>
+            <p>The feudal Japan setting is beautifully realized with stunning environments that range from snow-covered mountains to lush bamboo forests. The narrative explores themes of loyalty, honor, and the consequences of immortality through the Dragon's Heritage, creating a compelling story that fits perfectly within the game's historical fantasy setting.</p>
+            <p>While notoriously challenging, Sekiro's difficulty serves its narrative and gameplay perfectly. The sense of accomplishment from mastering its combat system and overcoming seemingly impossible bosses creates one of the most rewarding gaming experiences in recent memory.</p>
+
+            <div class="accordion" id="reviewAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Pros
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#reviewAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Precise and rewarding combat system with Posture mechanics</li>
+                                <li>Innovative grappling hook for vertical exploration</li>
+                                <li>Beautiful feudal Japan setting with stunning environments</li>
+                                <li>Stealth mechanics add tactical depth</li>
+                                <li>Challenging but fair difficulty curve</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Cons
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#reviewAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Extremely challenging learning curve</li>
+                                <li>Limited character customization compared to Souls games</li>
+                                <li>Some boss fights can feel unfair on first attempts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h3>Leave a Comment</h3>
+                <form id="comment-form">
+                    <div class="mb-3">
+                        <label for="commenterName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="commenterName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="commentText" class="form-label">Your Comment</label>
+                        <textarea class="form-control" id="commentText" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Comment</button>
+                </form>
+                <hr>
+                <h4>Comments</h4>
+                <div id="comments-list">
+                    <div class="card p-3 mb-2">
+                        <strong>ShinobiMaster:</strong> The Posture system is revolutionary! Best combat in any game.
+                    </div>
+                    <div class="card p-3 mb-2">
+                        <strong>WolfFan:</strong> Finally beat Isshin after 50 attempts. Worth every death!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2025 Game Review Website. All rights reserved.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
